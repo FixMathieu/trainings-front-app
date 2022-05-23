@@ -1,0 +1,23 @@
+.total{
+   background-color: rgb(56, 92, 255);
+   
+}
+.total td{
+    color: aliceblue;
+}
+tr{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+th{
+    display: flex;
+    justify-content: center; 
+   width: 100%;
+}
+td{
+    display: flex;
+    justify-content: center;
+  width: 100%;
+    
+}

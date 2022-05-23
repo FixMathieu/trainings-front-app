@@ -1,0 +1,20 @@
+a:hover{
+    color: red;
+    background-color: aliceblue;
+}
+tr{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+th{
+    display: flex;
+    justify-content: center; 
+   width: 100%;
+}
+td{
+    display: flex;
+    justify-content: center;
+  width: 100%;
+    
+}

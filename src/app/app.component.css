@@ -1,0 +1,19 @@
+.title{
+    color: aliceblue;
+}
+#titlebar{
+    background-color: rgb(55, 52, 243);
+    color: aliceblue;
+    padding-left: 5%;
+}
+a{transition: none;
+    color: aliceblue;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.nav-link{
+    transition: none;
+color:white;
+}

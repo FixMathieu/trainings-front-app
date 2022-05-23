@@ -1,0 +1,36 @@
+<div class="container">
+    <ng-container *ngIf="cart">
+       <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOM</th>
+                <th>QUANTITY</th>
+                <th>PRICE</th>
+                <th>DELETED</th>
+            </tr >
+        </thead>
+        <tbody>
+           
+            <tr *ngFor="let i of cart ">
+                <td >{{i.id}}</td>
+                <td>{{i.name}}</td>
+                <td>{{i.quantity}}</td>
+                <td>{{i.price}} €uro</td> 
+                <td><a class="btn btn-danger" (click)="withdrawTraining(i)">Supprimer</a></td>
+            </tr>
+            <tr class="total">
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td>{{total}} €uro</td>
+                <td></td>
+            </tr>
+        </tbody>
+       </table>
+       
+       
+           
+        
+    </ng-container>
+</div>
